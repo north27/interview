@@ -10,7 +10,8 @@
     <pre id="myText" ></pre>
 
   <script>
-     
+    src = 'https://requirejs.org/docs/release/2.3.5/minified/require.js';
+      
     var data = require('./providers.json');
     document.getElementById("myText").innerHTML = JSON.stringify(data, null, 4);
     
