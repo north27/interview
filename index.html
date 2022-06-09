@@ -13,7 +13,7 @@
   <script data-main = "scripts/main" src = "https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
   <script>
       
-    var data = require('./providers.json');
+    var data = require(['./providers.json']);
     document.getElementById("myText").innerHTML = JSON.stringify(data, null, 4);
     
   </script>
